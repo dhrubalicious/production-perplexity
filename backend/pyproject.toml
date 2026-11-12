@@ -3,8 +3,18 @@ name = "backend"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "alembic>=1.20.1",
+    "asyncmy>=0.2.18",
+    "cryptography>=50.0.2",
     "fastapi>=0.162.4",
+    "httpx>=0.28.1",
+    "langchain-core>=1.8.0",
+    "langgraph>=1.2.20",
     "pydantic-settings>=2.16.2",
+    "qdrant-client>=1.20.0",
+    "sqlalchemy[asyncio]>=2.1.8",
+    "structlog>=26.1.0",
+    "trafilatura>=2.3.1",
     "uvicorn[standard]>=0.54.0",
 ]
 
@@ -34,3 +44,5 @@ ignore = []
 python_version = "3.12"
 strict = true
 ignore_missing_imports = true
+explicit_package_bases = true
+namespace_packages = true

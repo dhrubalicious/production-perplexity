@@ -31,3 +31,5 @@ infra/data/
 uploads/
 workspace_data/
 coverage/
+
+.env.dev
