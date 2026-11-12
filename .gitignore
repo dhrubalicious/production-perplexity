@@ -1,0 +1,33 @@
+# Python & Virtual Environments
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Node & Frontend
+node_modules/
+dist/
+build/
+
+# IDE & OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Volumes, Storage & Uploads
+infra/data/
+uploads/
+workspace_data/
+coverage/
